@@ -2,7 +2,7 @@
 
 Test in ubuntu 18.04 and ros-melodic 
 
-### package depend:
+### Package depend:
 python 2.7 、 pygame
 
 ```ruby
@@ -24,4 +24,13 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
+### Run
 
+Open two terminals , one runs:
+```ruby
+roscore
+```
+Another:
+```ruby
+rosrun simulator2D/main.py
+```
