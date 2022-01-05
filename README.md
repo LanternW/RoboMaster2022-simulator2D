@@ -9,3 +9,12 @@ python 2.7 、 pygame
 pip install pygame
 ```
 
+### Setup workspace
+
+```ruby
+mkdir -r catkin_ws/src
+cd catkin_ws/src
+catkin_init_workspace
+git clone 
+```
+
