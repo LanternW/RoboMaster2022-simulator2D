@@ -15,6 +15,13 @@ pip install pygame
 mkdir -r catkin_ws/src
 cd catkin_ws/src
 catkin_init_workspace
-git clone 
+```
+
+### Build
+```ruby
+git clone https://github.com/LanternW/RoboMaster2022-simulator2D.git
+cd ..
+catkin_make
+source devel/setup.bash
 ```
 
