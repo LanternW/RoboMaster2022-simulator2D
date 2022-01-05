@@ -45,8 +45,8 @@ angular velocity unit:  rad/s
 #### The button at right of ">" is "reset" , only feasible in pause state.
 #### The three buttons at right down only used for mark points.
 #### Right click in the map area and drag: measure the distance.
-#### all API in "toros.py"
 #### Tank's odometry is send as topic "/simulator2D/odometry/($tank_id)" in 100Hz.
 #### Buff information is send as topic "/simulator2D/buff_information" in 1Hz.
+#### all API in "toros.py"
 #### All about ROS interface are in "toros.py"
 
